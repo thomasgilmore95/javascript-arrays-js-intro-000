@@ -6,7 +6,7 @@ var chocolateBars = ["Snickers", "hundred grand", "kitkat", "skittles"];
 
  function descructivelyAddElementToBeginningOfArray(array, element){
    chocolateBars.unshift(element)
-   return array
+   return chocolateBars
  }
 
  function addElementToEndOfArray(array, element){
